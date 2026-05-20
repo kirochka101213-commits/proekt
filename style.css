@@ -7,7 +7,6 @@
     --button-color: #486693;
 }
 
-
 .form {
     background-color: var(--background-section);
     height: 500px;
@@ -178,4 +177,16 @@ footer h4 {
     display: flex;
     justify-content: center;
     align-items: center;
+}
+
+input:hover {
+    background-color: var(--background);
+    box-shadow: 2px 2px 0px rgba(0, 0, 0, 1);
+    transform: translate(4px, 4px);
+}
+
+textarea:hover {
+    background-color: var(--background);
+    box-shadow: 2px 2px 0px rgba(0, 0, 0, 1);
+    transform: translate(4px, 4px);
 }
