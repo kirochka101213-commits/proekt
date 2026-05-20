@@ -4,153 +4,37 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Document</title>
-
-    <link href="https://fonts.googleapis.com/css2?family=Nunito:ital,
-    wght@0,200..1000;1,200..1000&family=Odibee+Sans&display=swap" rel="stylesheet">
-
     <style>
-        main {
-            background-color: #A72637;
-            height: 500px;
-            padding-top: 20px;
-        }
-        .ey {
-            background-color: #FFFCFC;
-            height: 40px;
-            width: 300px;
-            border: 2.5px solid black;
-            color: #A72637;
-            box-shadow: 7px 7px 2px 0px rgb(0, 0, 0, 0.2);
-            
-        }
-
-        .ey::placeholder {
-            color: #A72637;
-            font-family: "Nunito", sans-serif;
-        }
-
-        .one {
-            display: flex;
-            flex-direction: column;
-            justify-content: center;
-            gap: 15px;
-        }
-
-        .message {
-            background-color: #FFFCFC;
-            height: 100px;
-            width: 300px;
-            border: 2.5px solid black;
-            color: #A72637;
-            box-shadow: 7px 7px 2px 0px rgb(0, 0, 0, 0.2);
-            border: 0%;
-        }
-
-        .message::placeholder {
-            color: #A72637;
-            font-family: "Nunito", sans-serif;
-            padding: 5px;
-        }
-
-        .Join {
-            color: #FFFCFC;
-            -webkit-text-stroke: 2px black;
-            text-shadow: 7px 7px 2px rgba(0, 0, 0, 0.2);
-            font-family: "Odibee Sans", sans-serif;
-            font-weight: 170px;
-            font-size: 40px;
-            line-height: 100%;
-            letter-spacing: 0%;
-            display: flex;
-            flex-direction: row;
-            justify-content: center;
-        }
-        
-        .teh {
-            height: 190px;
-            width: 370px;
-            border: 2.5px solid black;
-            background-color: #6A0E1A;
-            display: flex;
-            flex-direction: column;
-            justify-content: center;
-            align-items: center;
-            padding: 20px;
-            box-shadow: 7px 7px 2px 0px rgb(0, 0, 0, 0.2);
-        }
-
-        .teh p {
-            color: #FFFCFC;
-            font-family: "Nunito", sans-serif;
-            font-weight: 300;
-            font-style: Regular;
-            font-size: 15px;
-            line-height: 100%;
-            letter-spacing: 0%;
-        }
-
-        .ar {
-            display: flex;
-            flex-direction: row;
-            justify-content: center;
-            gap: 50px;
-        }
-
-        button {
-            width: 325px;
-            height: 45px;
-            background-color: #486693;
-            border: 2.5px solid black;
-            color: #FFFCFC;
-            font-family: "Odibee Sans", sans-serif;
-            box-shadow: 7px 7px 2px 0px rgb(0, 0, 0, 0.2);
-        }
-
-        .but {
-            display: flex;
-            flex-direction: row;
-            justify-content: center;
-            margin-top: 50px;
-        }
-
-        footer {
-            height: 70px;
-            background-color: #120304;
-            display: flex;
-            flex-direction: row;
-            justify-content: center;
-        }
-        footer h4 {
-            color: #FFFCFC;
-            font-family: "Odibee Sans", sans-serif;
-        }
+        @import url('./style.css');
     </style>
 </head>
 <body>
-    <main>
-        <h2 class="Join">Join the Movement</h2>
-        <form>
-            <article class="vso">
+    <section class="form" id="Contact">
+    <h2 class="Join">Join the Movement</h2>
+    <form>
+        <article class="vso">
             <article class="ar">
-            <div class="one">
-            <input type="text" class="ey" placeholder="Enter your name">
-            <input type="email" class="ey" placeholder="Enter your Email">
-            <textarea class="message" type="text" placeholder="Enter your message"></textarea>
-            </div>
-        <div class="teh">
-            <p>Become part of the new wave inspired by the energy of the 2000s.</p>
-            <p>Share your style, discover unique combinations, and connect with people who redefine streetwear culture.</p>
-        </div>
-        </article>
-        <div class="but">
-            <button type="submit">Submit</button>
-            </div>
+                <div class="one">
+                    <input type="text" class="ey" placeholder="Enter your name">
+                    <input type="email" class="ey" placeholder="Enter your Email">
+                    <textarea class="message" type="text" placeholder="Enter your message"></textarea>
+                </div>
+                <div class="teh">
+                    <p>Become part of the new wave inspired by the energy of the 2000s.</p>
+                    <p>Share your style, discover unique combinations, and connect with people who redefine streetwear
+                        culture.</p>
+                </div>
             </article>
-        </form>
-    </main>
-    
-    <footer>
-        <h4>© 2026 STYLE REBORN. All rights reserved.</h4>
-    </footer>
+            <div class="but">
+                <button type="submit" class="button">Join Now</button>
+            </div>
+        </article>
+    </form>
+</section> 
+</main>
+
+<footer>
+    <h4>© 2026 STYLE REBORN. All rights reserved.</h4>
+</footer>
 </body>
 </html>

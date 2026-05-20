@@ -1,0 +1,181 @@
+:root {
+    --background: #FFFCFC;
+    --background-section: #A72637;
+    --primary-text-color: #FFFCFC;
+    --secondary-text-color: #120304;
+    --additional: #6A0E1A;
+    --button-color: #486693;
+}
+
+
+.form {
+    background-color: var(--background-section);
+    height: 500px;
+    padding-top: 20px;
+}
+
+::selection {
+    background-color: var(--secondary-text-color) ;
+    color: var(--background-section);
+}
+
+.ey {
+    background-color: var(--background);
+    height: 40px;
+    width: 300px;
+    border: 2.5px solid var(--secondary-text-color);
+    color: var(--background-section);
+    box-shadow: 7px 7px 2px 0px rgb(0, 0, 0, 0.2);
+
+}
+
+.ey::placeholder {
+    color: var(--background-section);
+    font-family: "Nunito", sans-serif;
+}
+
+.one {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    gap: 15px;
+}
+
+.message {
+    background-color: var(--background);
+    height: 100px;
+    width: 300px;
+    border: 2.5px solid black;
+    color: var(--background-section);
+    box-shadow: 7px 7px 2px 0px rgb(0, 0, 0, 0.2);
+    border: 0%;
+}
+
+.message::placeholder {
+    color: var(--background-section);
+    font-family: "Nunito", sans-serif;
+    padding: 5px;
+}
+
+.Join {
+    color: var(--primary-text-color);
+    text-shadow:
+            0 0 10px rgba(0, 0, 0, 0.5),
+            -3px -3px 0 #000,
+            3px -3px 0 #000,
+            -3px 3px 0 #000,
+            3px 3px 0 #000;
+
+    font-family: "Odibee Sans", sans-serif;
+    font-weight: 300;
+    font-size: 50px;
+    text-transform: uppercase;
+    
+    line-height: 100%;
+    letter-spacing: 0%;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    margin-bottom: 50px;
+}
+
+.teh {
+    height: 190px;
+    width: 370px;
+    border: 2.5px solid black;
+    background-color: var(--additional);
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding: 20px;
+    box-shadow: 7px 7px 2px 0px rgb(0, 0, 0, 0.2);
+}
+
+.teh p {
+    color: var(--primary-text-color);
+    font-family: "Nunito", sans-serif;
+    font-weight: 300;
+    font-style: normal;
+    font-size: 15px;
+    line-height: 100%;
+    letter-spacing: 0%;
+}
+
+.ar {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    gap: 50px;
+}
+
+button {
+    width: 325px;
+    height: 45px;
+    background-color: var(--button-color);
+    border: 2.5px solid black;
+    color: var(--primary-text-color);
+    font-family: "Odibee Sans", sans-serif;
+    font-weight: 300;
+    font-size: 16px;
+    text-transform: uppercase;
+    box-shadow: 7px 7px 2px 0px rgb(0, 0, 0, 0.2);
+
+}
+
+.but {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    margin-top: 50px;
+    margin: 40px 0;
+}
+
+button {
+    display: inline-block;
+    padding: 16px 50px;
+    background-color: var(--button-color);
+    color: var(--primary-text-color);
+    text-decoration: none;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    
+    font-family: "Odibee Sans", sans-serif;
+    font-size: 18px;
+    font-weight: 300;
+    text-transform: uppercase;
+    letter-spacing: 1px;
+    
+    border: 2px solid var(--secondary-text-color);
+    box-shadow: 6px 6px 0px rgba(0, 0, 0, 1);
+    
+    transition: all 0.15s ease;
+    cursor: pointer;
+
+}
+
+.button:hover {
+    background-color: var(--button-color);
+    box-shadow: 2px 2px 0px rgba(0, 0, 0, 1);
+    transform: translate(4px, 4px);
+}
+
+footer {
+    height: 70px;
+    background-color: var(--secondary-text-color);
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+}
+
+footer h4 {
+    color: var(--primary-text-color);
+    font-family: "Odibee Sans", sans-serif;
+    font-weight: 300;
+    font-size: 18px;
+    text-transform: uppercase;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
