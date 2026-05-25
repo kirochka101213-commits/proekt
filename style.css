@@ -11,6 +11,21 @@
     background-color: var(--background-section);
     height: 500px;
     padding-top: 20px;
+    width: 100%;
+}
+
+.logo {
+    font-family: "Odibee Sans", sans-serif;
+    font-weight: 700;
+    font-size: 40px;
+    text-transform: uppercase;
+    background-image: linear-gradient(to right, #486693, #B8273A);
+    -webkit-background-clip: text;
+    background-clip: text;
+    color: transparent;
+    -webkit-text-fill-color: transparent;
+    text-decoration: none;
+
 }
 
 ::selection {
@@ -161,11 +176,14 @@ button {
 }
 
 footer {
-    height: 70px;
-    background-color: var(--secondary-text-color);
+    height: 180px;
     display: flex;
-    flex-direction: row;
-    justify-content: center;
+    justify-content: space-between;
+    align-items: center;
+    padding: 20px 80px;
+    background: var(--secondary-text-color);
+    border-bottom: 2px solid black;
+    z-index: 100;
 }
 
 footer h4 {
@@ -190,3 +208,71 @@ textarea:hover {
     box-shadow: 2px 2px 0px rgba(0, 0, 0, 1);
     transform: translate(4px, 4px);
 }
+
+.nav-link {
+    text-decoration: none;
+    color: var(--primary-text-color);
+    font-size: 20px;
+    font-weight: 400;
+    position: relative;
+    transition: color 0.2s ease;
+    font-family: "Nunito", sans-serif;
+}
+
+.nav {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    gap: 15px;
+}
+
+.nav-link:hover {
+    color: var(--background-section);
+}
+
+
+.nav-link.active {
+    color: var(--background-section);
+    font-weight: 700;
+}
+
+.nav-link.active::after {
+    content: '';
+    position: absolute;
+    bottom: -5px;
+    left: 0;
+    width: 100%;
+    height: 1px;
+    background-color: var(--background-section);
+    border: 0.5px solid black;
+}
+
+ a {
+     text-decoration: none;
+     color: var(--background-section);
+     font-size: 18px;
+     font-weight: 400;
+     position: relative;
+     transition: color 0.2s ease;
+     font-family: "Nunito", sans-serif;
+ }
+
+ .links {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+ }
+
+ .links2 {
+    gap: 7px;;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+ }
+
+ .channels {
+    color: var(--primary-text-color);
+    font-family: "Odibee Sans", sans-serif;
+    font-size: 20px;
+    font-weight: 400;
+    }
